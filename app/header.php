@@ -16,7 +16,7 @@
 
 
     <!-- Custom styles for this template -->
-    <link href="http://getbootstrap.com/examples/jumbotron/jumbotron.css" rel="stylesheet">
+    <link href="<?= PROJECT_ROOT ?>/assets/css/jumbotron.css" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="<?= PROJECT_ROOT ?>/assets/css/search.css"/>
     <link rel="stylesheet" type="text/css" href="<?= PROJECT_ROOT ?>/assets/css/style.css"/>

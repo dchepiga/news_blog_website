@@ -3,7 +3,7 @@
 function init()
 {
     include('config/db_config.php');
-    $dsn = 'mysql:host=' . $db_config['host'] . '; dbname=' . $db_config['db_name'];
+    $dsn = 'mysql:host=' . $db_config['host'] . '; dbname=' . $db_config['db_name'].';charset=utf8';
     $user = $db_config['user'];
     $password = $db_config['pwd'];
     try {
