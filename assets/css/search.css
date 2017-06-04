@@ -1,0 +1,43 @@
+#block-search{
+    margin: 0 auto;
+    width: 423px;
+    height: 33px;
+}
+#block-search-result{
+    border-left: 1px solid #E1DFDD;
+    border-right: 1px solid #E1DFDD;
+    border-bottom: 1px solid #E1DFDD;
+    width: 419px;
+    height:  auto;
+    background-color: white;
+    position: absolute;
+    z-index: 9999;
+    display: none;
+}
+#list-search-result > li{
+    border-bottom: 1px solid #EAEAEA;
+    height: auto;
+    list-style-type: none;
+}
+
+
+.block-title-price{
+    width: 325px;
+}
+.block-title-price > a{
+    font: 15px sans-serif;
+    color: #287FC3;
+    display: block;
+}
+.block-title-price > a:hover{
+    text-decoration: none;
+}
+
+#search-noresult{
+    color: #E96767;
+    font: 13px sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+

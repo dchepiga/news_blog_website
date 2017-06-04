@@ -1,0 +1,31 @@
+a#logout {
+    margin: 10px;
+}
+a#admin-button {
+    margin: 10px;
+}
+li {
+    list-style-type: none;
+}
+label.check{
+    display: flex;
+}
+input[type=checkbox]{
+    margin-right: 10px;
+}
+
+.carousel-inner > .item > img , img#news {
+    width:440px;
+    height:260px;
+}
+
+#hint{
+    font-size: 8pt;
+    color: lightgrey;
+
+}
+
+.carousel {
+    width:440px;
+    height:260px;
+}
